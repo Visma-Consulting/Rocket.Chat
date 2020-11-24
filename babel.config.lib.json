@@ -1,0 +1,9 @@
+{
+	"presets": [
+		"@babel/typescript",
+		[
+			"@postinumero/react-lib-experimental",
+			{ "reactApp": { "runtime": "classic" } }
+		]
+	]
+}
