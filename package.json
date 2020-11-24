@@ -37,8 +37,8 @@
 		"release": "meteor npm run set-version --silent",
 		"storybook": "start-storybook -p 6006",
 		"build-storybook": "build-storybook",
-		"build-lib-client": "library-scripts build client --out-dir build-lib/client --no-babelrc --extensions \".js,.jsx,.ts,.tsx\" --presets @babel/preset-typescript",
-		"watch-lib-client": "library-scripts watch client --out-dir build-lib/client --no-babelrc --extensions \".js,.jsx,.ts,.tsx\" --presets @babel/preset-typescript"
+		"build-lib-client": "library-scripts build client --out-dir build-lib/client --no-babelrc --extensions \".js,.jsx,.ts,.tsx\" --config-file ./babel.config.lib.json",
+		"watch-lib-client": "library-scripts watch client --out-dir build-lib/client --no-babelrc --extensions \".js,.jsx,.ts,.tsx\" --config-file ./babel.config.lib.json"
 	},
 	"license": "MIT",
 	"repository": {
