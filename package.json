@@ -94,7 +94,7 @@
 		"cypress": "^4.12.1",
 		"emojione-assets": "^4.5.0",
 		"eslint": "^6.8.0",
-		"eslint-config-prettier": "^8.1.0",
+		"eslint-config-prettier": "^8.3.0",
 		"eslint-plugin-import": "^2.22.0",
 		"eslint-plugin-prettier": "^3.3.1",
 		"eslint-plugin-react": "^7.20.6",
